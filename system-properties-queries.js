@@ -1,0 +1,10 @@
+const os = require('os');
+console.log('cpu architecture:',os.arch());
+console.log('free memory:',os.freemem());
+console.log('total memory:',os.totalmem());
+console.log('network interfaces:',JSON.stringify(os.networkInterfaces()));
+console.log('endianess:',os.endianness());
+console.log('hostname',os.hostname());
+console.log('type',os.type());
+console.log('platform',os.platform());
+console.log('release',os.release());
