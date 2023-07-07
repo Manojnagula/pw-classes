@@ -12,8 +12,7 @@ app.get('/about',(req,res)=>{
     res.send('<h3 style="color: red;">about page!</h3>');
 });
 app.get('/contact',(req,res)=>{
-    res.send('<h2 style="color: purple
-    ;">contact page!</h2>');
+    res.send('<h2 style="color: purple">contact page!</h2>');
 });
 app.listen(PORT,()=>{
     console.log(`server running on ${hostname}:${PORT}`);
