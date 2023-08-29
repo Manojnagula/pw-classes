@@ -1,0 +1,47 @@
+.container{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 40px 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.inputs{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.password, .userName{
+    border-radius: 2px;
+    padding:10px;
+    border: 1 px solid black
+}
+.input{
+    margin-bottom: 5px;
+    width: 300px;
+
+}
+.button{
+    background-color:#0095F6;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px 0;
+    width:324px
+}
+.text{
+    font-size: 18px;
+}
+.clickable{
+    color:#0095F6;
+}
+.logo{
+    margin-bottom: -20px;
+}
+.clickable{
+    text-decoration: none;
+}
